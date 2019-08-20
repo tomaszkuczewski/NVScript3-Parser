@@ -1,0 +1,5 @@
+ABC//TEST COMMENT
+function main()
+{
+	C//TEST COMMENT 2
+}

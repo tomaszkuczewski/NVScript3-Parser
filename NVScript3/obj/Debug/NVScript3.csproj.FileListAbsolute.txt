@@ -1,0 +1,6 @@
+C:\Users\Tomek\source\repos\NVScript3\NVScript3\bin\Debug\NVScript3.exe
+C:\Users\Tomek\source\repos\NVScript3\NVScript3\bin\Debug\NVScript3.pdb
+C:\Users\Tomek\source\repos\NVScript3\NVScript3\obj\Debug\NVScript3.csprojAssemblyReference.cache
+C:\Users\Tomek\source\repos\NVScript3\NVScript3\obj\Debug\NVScript3.csproj.CoreCompileInputs.cache
+C:\Users\Tomek\source\repos\NVScript3\NVScript3\obj\Debug\NVScript3.exe
+C:\Users\Tomek\source\repos\NVScript3\NVScript3\obj\Debug\NVScript3.pdb
