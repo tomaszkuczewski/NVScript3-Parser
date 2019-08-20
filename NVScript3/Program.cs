@@ -24,7 +24,7 @@ namespace NVScript3
             var executor = new NovelExecutor(script);
 
             executor.Reset();
-            executor.CallScriptFunction("abc", null);
+            executor.CallScriptFunction("main", null);
             executor.ContinueExecution();
         }
 

@@ -4,6 +4,9 @@
 that is very similiar to JavaScript. Language uses only stack so the state of the program
 can be easly serialized and recovered later.
 
+REMINDER: It was not meant to be released for public due to lack of time to REFACTOR but its used as a code sample
+because it took A LOT OF TIME.
+
 - Supports functions
 - Supports conditions
 - Supports while loop
@@ -35,4 +38,19 @@ function add(input)
 {
 	return input + 1;
 }
+```
+
+# Example code in C#
+```c#
+	var text = File.ReadAllText("test.txt");
+	//Adding c# callbacks
+	NovelFunctionPool delegates = new NovelFunctionPool();
+	delegates.AddFunction(new Action<string>(Print));
+	//Parsing to the script object
+	var script = new NovelParser().ParseText("test.txt", text, delegates);
+	//Using default executor
+	var executor = new NovelExecutor(script);
+	executor.Reset();
+	executor.CallScriptFunction("main", null);
+	executor.ContinueExecution();
 ```
